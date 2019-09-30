@@ -1,6 +1,6 @@
 /**
   * @file    TPL5010.h
-  * @version 
+  * @version 1.0.0
   * @author  Adam Mitchell
   * @brief   Header file of the TPL5010 watchdog timer driver module
   */
