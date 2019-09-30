@@ -30,11 +30,11 @@ TPL5010::~TPL5010()
 /** Kick the watchdog by asserting _done for 2 microseconds. The minimum pulse width
  *  that the TPL5010 will detect is ~ 100 nanoseconds
  */
-TPL5010::kick()
+void TPL5010::kick()
 {
     _done = 1;
 
-    wait_us(2)
+    wait_us(2);
 
     _done = 0;
 }
